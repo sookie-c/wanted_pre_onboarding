@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  width: 480px;
+  height: 200px;
+  border: 1.2px solid lavender;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.title {
+  margin: 12px;
+  font-size: 18px;
+}
+
+.autoComplete {
+  display: flex;
+  padding-top: 32px;
+  /* align-items: center; */
+  height: 100%;
+}
+
+.inner {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  height: 32px;
+  padding: 12px;
+  border: 1.5px solid lavender;
+  border-radius: 8px;
+  outline: none;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background-color: transparent;
+  border: none;
+  color: darkgray;
+  cursor: pointer;
+}
+
+.searchList {
+  position: absolute;
+  top: 31px;
+  left: 0px;
+  width: 100%;
+  border: 1px solid lavender;
+  border-radius: 8px;
+}
+
+.lists {
+  padding: 0px;
+  list-style: none;
+}
+
+.list {
+  padding-left: 12px;
+}

@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  width: 480px;
+  height: 200px;
+  border: 1.2px solid lavender;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.title {
+  margin: 12px;
+  font-size: 18px;
+}
+
+.openBtn {
+  position: relative;
+  top: 50px;
+  left: 195px;
+  width: 110px;
+  height: 48px;
+  background-color: darkslategray;
+  color: white;
+  border: none;
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+.openBtn:hover {
+  background-color: gray;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.336);
+}
+
+.popUp {
+  margin: 240px auto;
+  padding: 6px 12px;
+  width: 220px;
+  height: 78px;
+  text-align: center;
+  background: white;
+  border-radius: 14px;
+  font-size: 13px;
+  color: darkslategray;
+}
+
+.closeBtn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}

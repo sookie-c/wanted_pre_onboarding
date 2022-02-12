@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+p {
+  text-align: center;
+}
+
+header {
+  font-weight: bold;
+  color: darkslategray;
+}

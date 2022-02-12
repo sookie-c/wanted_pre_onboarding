@@ -1,0 +1,51 @@
+a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.navlink {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0;
+  width: 130px;
+}
+
+.list:hover {
+  background-color: gray;
+}
+
+.navbar {
+  margin: 12px 0;
+  position: sticky;
+  width: 100%;
+  background-color: darkslategray;
+}
+
+@media screen and (max-width: 768px) {
+  .list {
+    padding: 12px 0px;
+    width: 110px;
+    height: 100%;
+    max-height: 80px;
+    justify-content: center;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 628px) {
+  .list {
+    justify-content: start;
+    padding: 10px;
+    width: 80px;
+    font-size: 13px;
+  }
+}

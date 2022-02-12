@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  width: 580px;
+  height: 200px;
+  border: 1.2px solid lavender;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.title {
+  margin: 12px;
+  font-size: 18px;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgrey;
+  color: gray;
+  font-size: 14px;
+  list-style: none;
+}
+
+.list {
+  padding: 12px 130px 12px 12px;
+  cursor: pointer;
+}
+
+.list.active {
+  background-color: red;
+}
+
+.menu {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
