@@ -1,5 +1,4 @@
 import React from 'react';
-import { useEffect } from 'react';
 import { useRef } from 'react';
 import { useState } from 'react';
 import styles from './autoComplete.module.css';
@@ -94,7 +93,6 @@ const AutoComplete = (props) => {
   };
 
   const [selected, setSelected] = useState('');
-
   const inputRef = useRef();
 
   const onClick = (e) => {

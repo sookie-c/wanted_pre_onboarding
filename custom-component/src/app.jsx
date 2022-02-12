@@ -10,10 +10,10 @@ import ClickToEdit from './components/click_to_edit/clickToEdit';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/wanted_pre_onboarding">
       <Navbar />
-      <Routes basename="/custom-component">
-        <Route path="/" element={<Toggle />} />
+      <Routes>
+        <Route exact path="/" element={<Toggle />} />
         <Route path="/modal" element={<Modal />} />
         <Route path="/tab" element={<Tab />} />
         <Route path="/tag" element={<Tag />} />
