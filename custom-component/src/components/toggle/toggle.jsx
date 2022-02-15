@@ -16,12 +16,12 @@ const Toggle = () => {
         <div className={styles.toggle}>
           <input
             className={styles.checkbox}
-            id={`react-switch-new`}
+            id={`toggle`}
             type="checkbox"
             checked={isToggled}
             onChange={onToggle}
           />
-          <label className={styles.label} htmlFor={`react-switch-new`}>
+          <label className={styles.label} htmlFor={`toggle`}>
             <span className={styles.button} />
           </label>
         </div>

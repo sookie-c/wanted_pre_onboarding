@@ -99,8 +99,6 @@ const AutoComplete = (props) => {
     const selectedItem = e.target.innerText;
     inputRef.current.value = selectedItem;
     setSelected(selectedItem);
-
-    console.log(e);
   };
 
   const handleClose = (e) => {
@@ -108,6 +106,7 @@ const AutoComplete = (props) => {
       inputRef.current.value = '';
       setCloseBtn(!closeBtn);
     }
+
     setTimeout(() => {
       setCloseBtn(closeBtn);
     }, 500);
