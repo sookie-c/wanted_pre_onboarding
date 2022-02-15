@@ -2,6 +2,8 @@
 
 ### Toggle
 
+---
+
 <img width="50%" src="https://user-images.githubusercontent.com/92242083/154052171-50ac6568-69c7-4163-bafc-a1fcd803db89.gif" />
 
 Input(checkbox) handing boolean values as a state data과 CSS 활용
@@ -14,6 +16,8 @@ Input 태그의 checked 선택자를 활용하는 게 코드가 간결할 것이
 5. 'input' checked속성이 거짓 값일 때, 'label''& 'button' 배경색, 위치가 제자리로 이동
 
 ### Modal
+
+---
 
 <img width="50%" src="https://user-images.githubusercontent.com/92242083/154053222-b826c47a-4bae-4668-8252-9c6077351a11.gif" />
 
@@ -29,6 +33,8 @@ Input 태그의 checked 선택자를 활용하는 게 코드가 간결할 것이
 
 ### Tab
 
+---
+
 <img width="50%" src="https://user-images.githubusercontent.com/92242083/154053227-91f369de-0e43-4f62-8837-35e4c5334bef.gif" />
 
 1. tab 스테이트 값을 제일 처음에 보여야 하는 tab1으로 초기화
@@ -38,6 +44,8 @@ Input 태그의 checked 선택자를 활용하는 게 코드가 간결할 것이
 5. tabLength의 index를 사용하여 선택된 selectedTab이 동일하면 스타일링을 다르게 변경
 
 ### Tag
+
+---
 
 <img width="50%" src="https://user-images.githubusercontent.com/92242083/154053256-ac48885b-7fc5-43fc-ad73-ac604c3f8dad.gif"/>
 
@@ -54,6 +62,8 @@ Input 태그의 checked 선택자를 활용하는 게 코드가 간결할 것이
 
 ### AutoComplete
 
+---
+
 <img width="50%" src="https://user-images.githubusercontent.com/92242083/154053256-ac48885b-7fc5-43fc-ad73-ac604c3f8dad.gif"/>
 
 1. 자동 완성 기능에 사용할 문자 배열을data 변수에 저장
@@ -65,6 +75,8 @@ Input 태그의 checked 선택자를 활용하는 게 코드가 간결할 것이
 7. 'button' 클로즈 버튼을 누르면 제안 단어와 함께 사용자가 입력한 'input' 데이터 사라짐
 
 ### ClickToEdit
+
+---
 
 <img width="50%" src="https://user-images.githubusercontent.com/92242083/154053265-d4bad422-fd2f-40c0-bedb-50e3727cff44.gif" />
 
