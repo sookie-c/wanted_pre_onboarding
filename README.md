@@ -2,7 +2,7 @@
 
 ### Toggle
 
-<img width="100%" src="https://user-images.githubusercontent.com/92242083/154052171-50ac6568-69c7-4163-bafc-a1fcd803db89.gif" />
+<img width="50%" src="https://user-images.githubusercontent.com/92242083/154052171-50ac6568-69c7-4163-bafc-a1fcd803db89.gif" />
 
 Input(checkbox) handing boolean values as a state data과 CSS 활용
 Input 태그의 checked 선택자를 활용하는 게 코드가 간결할 것이라 생각
@@ -14,6 +14,8 @@ Input 태그의 checked 선택자를 활용하는 게 코드가 간결할 것이
 5. 'input' checked속성이 거짓 값일 때, 'label''& 'button' 배경색, 위치가 제자리로 이동
 
 ### Modal
+
+<img width="50%" src="https://user-images.githubusercontent.com/92242083/154053222-b826c47a-4bae-4668-8252-9c6077351a11.gif" />
 
 버튼을 클릭하면 새로운 팝업 창이 활성화
 토글 컴포넌트와 비슷하게 modal의 state 값이 거짓이면 팝업이 뜨지 않고, 참일 시에만 팝업이 활성화되도록 구현하는 게 간결할 것이라 생각
@@ -27,6 +29,8 @@ Input 태그의 checked 선택자를 활용하는 게 코드가 간결할 것이
 
 ### Tab
 
+<img width="50%" src="https://user-images.githubusercontent.com/92242083/154053227-91f369de-0e43-4f62-8837-35e4c5334bef.gif" />
+
 1. tab 스테이트 값을 제일 처음에 보여야 하는 tab1으로 초기화
 2. tabLength스테이트 값을 탭의 갯수만큼 배열의 길이로 잡아 초기화 [‘1’,’2’,’3’]
 3. 탭의 길이만큼 Tab'list'가 생성되도록 맵핑
@@ -34,6 +38,8 @@ Input 태그의 checked 선택자를 활용하는 게 코드가 간결할 것이
 5. tabLength의 index를 사용하여 선택된 selectedTab이 동일하면 스타일링을 다르게 변경
 
 ### Tag
+
+<img width="50%" src="https://user-images.githubusercontent.com/92242083/154053256-ac48885b-7fc5-43fc-ad73-ac604c3f8dad.gif"/>
 
 1. state 데이터(tagData)를 태그들의 배열로 초기값을 설정
 2. 'ul', 'li'를 사용하여 일체의 리스트로 태그 배열의 관리가 수월하게 jsx 마크업
@@ -48,6 +54,8 @@ Input 태그의 checked 선택자를 활용하는 게 코드가 간결할 것이
 
 ### AutoComplete
 
+<img width="50%" src="https://user-images.githubusercontent.com/92242083/154053256-ac48885b-7fc5-43fc-ad73-ac604c3f8dad.gif"/>
+
 1. 자동 완성 기능에 사용할 문자 배열을data 변수에 저장
 2. 자동 제안 auto, 클로즈 버튼 closeBtn, 선택된 단어 ‘seleted’ 스테이트 값을 초기화
 3. 사용자에게 받아온 값에서 자동 완성 단어들을 제안하기 위해 onTextChanged함수를 onChange 속성에 설정
@@ -57,6 +65,8 @@ Input 태그의 checked 선택자를 활용하는 게 코드가 간결할 것이
 7. 'button' 클로즈 버튼을 누르면 제안 단어와 함께 사용자가 입력한 'input' 데이터 사라짐
 
 ### ClickToEdit
+
+<img width="50%" src="https://user-images.githubusercontent.com/92242083/154053265-d4bad422-fd2f-40c0-bedb-50e3727cff44.gif" />
 
 1. 사용자에게 이름과 나이를 'input'으로 받음
 2. 받아온 이름과 나이를 ref속성으로 변수 설정 (nameRef, ageRef)
