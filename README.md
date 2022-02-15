@@ -2,6 +2,8 @@
 
 ### Toggle
 
+<img width="100%" src="https://user-images.githubusercontent.com/92242083/154052171-50ac6568-69c7-4163-bafc-a1fcd803db89.gif" />
+
 Input(checkbox) handing boolean values as a state data과 CSS 활용
 Input 태그의 checked 선택자를 활용하는 게 코드가 간결할 것이라 생각
 
