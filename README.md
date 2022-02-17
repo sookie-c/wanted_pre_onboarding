@@ -47,7 +47,7 @@ Input 태그의 checked 선택자를 활용하는 게 코드가 간결할 것이
 
 ---
 
-<img width="50%" src="https://user-images.githubusercontent.com/92242083/154053256-ac48885b-7fc5-43fc-ad73-ac604c3f8dad.gif"/>
+<img width="50%" src="https://user-images.githubusercontent.com/92242083/154053227-91f369de-0e43-4f62-8837-35e4c5334bef.gif"/>
 
 1. state 데이터(tagData)를 태그들의 배열로 초기값을 설정
 2. 'ul', 'li'를 사용하여 일체의 리스트로 태그 배열의 관리가 수월하게 jsx 마크업
